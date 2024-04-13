@@ -47,7 +47,7 @@ header {
     visibility: hidden;
 }
 
-#main.show{
+.show{
     opacity: 1;
     visibility: visible;
 }
