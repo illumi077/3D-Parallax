@@ -28,11 +28,28 @@ header {
 }
 
 .loader {
-    position: absolute;
+    position: fixed;
     inset: 0;
     height: 100vh;
     z-index: 999;
     background-color: bisque;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.loader.hide{
+    opacity: 0;
+    visibility: hidden;
+}
+
+#main {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#main.show{
+    opacity: 1;
+    visibility: visible;
 }
 
 nav img{

@@ -13,3 +13,11 @@ window.addEventListener("mousemove" , (e) => {
         elem.style.transform = `translateX(calc(-50% + ${- xValue * speedX}px ))  translateY(calc(-50% + ${- yValue * speedY}px ))`
     })
 })
+
+const loaderContainer = document.querySelector(".loader")
+const contentContainer = document.querySelector("#main")
+
+contentContainer.addEventListener('load', () => {
+    loaderContainer.classList.add('hide')
+    contentContainer.classList.add('show')
+})
