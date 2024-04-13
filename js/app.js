@@ -17,7 +17,7 @@ window.addEventListener("mousemove" , (e) => {
 const loaderContainer = document.querySelector(".loader")
 const contentContainer = document.querySelector("#main")
 
-contentContainer.addEventListener('load', () => {
+window.addEventListener('load', () => {
     loaderContainer.classList.add('hide')
     contentContainer.classList.add('show')
 })
