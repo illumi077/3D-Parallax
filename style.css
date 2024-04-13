@@ -30,6 +30,7 @@ header {
 .loader {
     position: absolute;
     inset: 0;
+    height: 100vh;
     z-index: 999;
     background-color: bisque;
 }
