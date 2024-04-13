@@ -27,6 +27,13 @@ header {
     left: 0; 
 }
 
+.loader {
+    position: absolute;
+    inset: 0;
+    z-index: 999;
+    background-color: bisque;
+}
+
 nav img{
     width: 10vw;
     filter: invert(1);
